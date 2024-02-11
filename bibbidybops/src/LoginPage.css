@@ -1,0 +1,20 @@
+.LoginPage {
+  text-align: center;
+}
+
+.loginBox {
+  /* Centered on page vertically and horizontally, otherwise same as .firstBox */
+  width: 30%;
+  height: 230px;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  border-radius: 20px;
+  
+  margin: auto;
+}

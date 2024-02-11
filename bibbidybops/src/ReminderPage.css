@@ -1,0 +1,94 @@
+.ReminderPage {
+  text-align: center;
+}
+
+.createReminderBox {
+  width: 30%;
+  margin: 90px auto;
+  padding: 0px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  margin-bottom: 5px;
+
+  
+  display: block;
+  overflow: visible;
+}
+
+.reminderBox {
+  position: relative;
+  width: 30%;
+  min-height: 200px;
+  overflow: visible;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  margin-bottom: 5px;
+}
+
+.createReminderButton {
+  margin-bottom: 10px;
+}
+
+.divider {
+  width: 50%;
+  margin: 20px auto;
+  padding: 0px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  overflow-x: hidden;
+  padding-top: 100px;
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: rgb(0, 0, 0); /* White text */
+  padding: 2px 12px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* No underline */
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer; /* Mouse pointer on hover */
+  transition-duration: 0.2s; /* Transition effect */
+}
+
+button:hover {
+  background: linear-gradient(to right, #ff6d4f, #fdab6a); /* Swap colors on hover */
+  border-color: rgb(10, 10, 10); /* Change border color on hover */
+}
+
+.sidenav button {
+    display: block;
+    color: rgb(208, 208, 208);
+    padding: 16px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    transition: 0.3s;
+    transition: background 0.5s;
+}
+
+.sidenav button:hover {
+    background: rgb(241, 241, 241);
+    color: #4d4d4d;
+}
